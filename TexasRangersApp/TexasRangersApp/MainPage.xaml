@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TexasRangersApp.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Gray" VerticalOptions="CenterAndExpand">
+            <Image Source="" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </Frame>
+        <Frame BackgroundColor="Red" CornerRadius="0">
+            <Button x:Name="foodButton" Text="Food Menu" TextColor="White" FontSize="24" BackgroundColor="Transparent" Clicked="foodButton_Clicked" />
+        </Frame>
+        <Frame BackgroundColor="Red" CornerRadius="0">
+            <Button x:Name="drinksButton" Text="Drinks Menu" TextColor="White" FontSize="24" BackgroundColor="Transparent" Clicked="drinksButton_Clicked"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

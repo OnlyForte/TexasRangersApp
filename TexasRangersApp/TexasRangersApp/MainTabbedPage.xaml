@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TexasRangersApp.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Menu" BackgroundColor="Gray">
+        <StackLayout>
+            <Frame BackgroundColor="Gray" VerticalOptions="CenterAndExpand">
+                <Image Source="TexasRangersIcon.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </Frame>
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Button x:Name="foodButton" Text="Food Menu" TextColor="White" FontSize="24" BackgroundColor="Transparent" Clicked="foodButton_Clicked" />
+            </Frame>
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Button x:Name="drinksButton" Text="Drinks Menu" TextColor="White" FontSize="24" BackgroundColor="Transparent" Clicked="drinksButton_Clicked"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Contact" >
+        <StackLayout>
+            <Label Text="The building is located at :"/>
+            <Label Text="131 Queen Street, Auckland CBD, Auckland 1010"/>
+            <Label Text="You can contact us by emailing texasrangers@gmail.com"/>
+            <Image Source="TexasRangersBar.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <WebView x:Name="mapWebView" Source="https://mobile.here.com/p/h-aHR0cHM6Ly9wbGFjZXMuYXBpLmhlcmUuY29tL3BsYWNlcy92MS9wbGFjZXMvbG9jLWRtVnljMmx2YmoweE8zUnBkR3hsUFVObGJuUnlaU3REYjNWeWRDdFJkV1ZsYml0VGREdHNZVzVuUFdWdU8yeGhkRDB0TXpZdU9EUTJPRE01T1RBME56ZzFNVFUyTzJ4dmJqMHhOelF1TnpZMU56RTJOVFV5TnpNME16ZzdjM1J5WldWMFBWRjFaV1Z1SzFOME8yaHZkWE5sUFVObGJuUnlaU3REYjNWeWREdGphWFI1UFVGMVkydHNZVzVrTzNCdmMzUmhiRU52WkdVOU1UQXhNRHRqYjNWdWRISjVQVTVhVER0a2FYTjBjbWxqZEQxQmRXTnJiR0Z1WkN0RFpXNTBjbUZzTzNOMFlYUmxQVUYxWTJ0c1lXNWtPMk52ZFc1MGVUMUJkV05yYkdGdVpDdERhWFI1TzJOaGRHVm5iM0o1U1dROVluVnBiR1JwYm1jN2MyOTFjbU5sVTNsemRHVnRQV2x1ZEdWeWJtRnNPMjVzWVhROUxUTTJMamcwTmpnNE1UZzJOalExTlRBNE8yNXNiMjQ5TVRjMExqYzJOVGswTlRRek5EVTNNRE03Y0dSelEyRjBaV2R2Y25sSlpEMDVNREF0T1RNd01DMHdNREF3O2NvbnRleHQ9Wm14dmR5MXBaRDFsTmpCbFpqUTNOeTA1T0RGbExUVTBZbVF0WWpOak1DMWxaakZpTXpobVlqZGtaREpmTVRZd05qWTBNVEk0TXpJMU5WODNORFkyWHprMU16WW1jbUZ1YXowdz9hcHBfaWQ9M0tJUWxzMkRTS2xOV2ZkYXNwQjkmYXBwX2NvZGU9ZjJ2RG4xVFVZRVZuNGtZdHdLMzd5dw%253D%253D?msg=Centre%20Court%20Queen%20St" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Reservations">
+        <Button x:Name="reservationMainPageButton" Text="Reservation Menu" TextColor="White" FontSize="24" BackgroundColor="Transparent"/>
+    </ContentPage>
+</TabbedPage>

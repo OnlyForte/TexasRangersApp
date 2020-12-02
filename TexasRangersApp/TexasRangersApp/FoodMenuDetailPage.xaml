@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TexasRangersApp.FoodMenuDetailPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="CadetBlue">
+            
+            <Frame BackgroundColor="Transparent" CornerRadius="0">
+                <Label Text="FOOD MENU" HorizontalOptions="Center" FontSize="36" TextColor="White"/>
+            </Frame>
+            
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Sizzling Steak $1.65" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Mushrooms, Olives, Celery" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Choice of Potatoes and Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Planked Steak $1.65" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Mushrooms, Hot Peppers, Olives, Celery" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Choice of Potatoes, Grilled Onions, Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Filet Mignon $1.35" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Olives, Celery, Mushrooms" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Choice of Potatoes, Grilled Onions, Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Big Small Steak $95" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Tomato Juice, Salad" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Choice of Potatoes, Grilled Onions, Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Broiled Pork Chops $70" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Tomato Juice, Salad, Potatoes" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Apple Sauce, Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Large Lamb Chops $70" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Tomato Juice, Salad, Potatoes and Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Half Barbequed Chicken $65" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="French Fried Potatoes, Cole Slaw" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Bread, Butter and Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Half Fried Chicken $65" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="French Fried Potatoes, Cole Slaw" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Bread, Butter and Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Barbequed Ribs $50" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="French Fried Potatoes, Cole Slaw" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Bread, Butter and Coffee" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            
+            <Button x:Name="backButton" BackgroundColor="Transparent" TextColor="White" Text="Back" Clicked="backButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

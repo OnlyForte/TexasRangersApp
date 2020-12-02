@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TexasRangersApp.DrinksMenuDetailPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="CadetBlue">
+            <Frame BackgroundColor="Transparent" CornerRadius="0">
+                <Label Text="DRINKS MENU" HorizontalOptions="Center" FontSize="36" TextColor="White"/>
+            </Frame>
+
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Bonded Whiskey" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Old Taylor $40" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Old Overholt $40" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Old Crow $35" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Old Republic $30" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Bourbon Whiskey" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Four Roses $35" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Golden Wedding $30" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Old Oscar Pepper $30" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Bond and Lillard $30" FontSize="16" TextColor="White"  HorizontalOptions="Center"/>
+            <Label Text="Ten High $25" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Blended Whiskey" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Canadian Club $40" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Seagram's V.O.C. $40" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Seagram's 7 Crown $40" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Seagram's 5 Crown $35" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Lord Calvert $40" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Rye Whiskey" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Old Quaker $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Golden Wedding $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Paul Jones $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Town Tavern $20" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Green River $25" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="Blue" CornerRadius="0">
+                <Label Text="Wines" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Tokay $20" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Port $20" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Sherry $20" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Muscatel $20" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Virginia Dare Sauternes $25" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+
+            <Frame BackgroundColor="Red" CornerRadius="0">
+                <Label Text="Bottled Beer" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Frame>
+            <Label Text="Stroh's $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Budweiser $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Blue Ribbon $30" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+            <Label Text="Carling's Ale $25" FontSize="16" TextColor="White"  HorizontalOptions="Center" />
+
+            <Button x:Name="backButton" BackgroundColor="Transparent" TextColor="White" Text="Back" Clicked="backButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
